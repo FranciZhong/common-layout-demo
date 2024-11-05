@@ -66,7 +66,9 @@ const SubscriptionPlans: React.FC = () => {
 				<h2 className="text-4xl font-medium mb-4">
 					Simple, transparent pricing
 				</h2>
-				<p className="text-neutral-600">Choose the plan that's right for you</p>
+				<p className="text-neutral-600">
+					Choose the plan that&apos;s right for you
+				</p>
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
 				{plans.map((plan) => (
